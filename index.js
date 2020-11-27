@@ -70,7 +70,7 @@ store.subscribe(()=>{     //subscribe function will accept a another function as
 
   
 store.dispatch({
-  type: "INC_NUM",
+  type: "INC_NUM",    // dispatch() function accept a object and that's object must have a type property.
 });
 
 store.dispatch({
